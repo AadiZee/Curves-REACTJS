@@ -1,25 +1,80 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <div>
+        <section className="blue">
+          <h1>Nice Curves!</h1>
+          <p>
+            A website is like a road. The more curves it has the more
+            interesting it is.
+          </p>
+          <div className="curve" />
+        </section>
+        <section>
+          <h1>Nice Curves!</h1>
+          <p>
+            A website is like a road. The more curves it has the more
+            interesting it is.
+          </p>
+        </section>
+        <section className="bubble">
+          <h1>Nice Curves!</h1>
+          <p>
+            A website is like a road. The more curves it has the more
+            interesting it is.
+          </p>
+        </section>
+        <section className="dark">
+          <h1>Nice Curves!</h1>
+          <p>
+            A website is like a road. The more curves it has the more
+            interesting it is.
+          </p>
+        </section>
+        <section className="red">
+          <h1>Nice Curves!</h1>
+          <p>
+            A website is like a road. The more curves it has the more
+            interesting it is.
+          </p>
+          <div className="wave">
+            <svg
+              data-name="Layer 1"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 1200 120"
+              preserveAspectRatio="none"
+            >
+              <path
+                d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
+                className="shape-fill"
+              />
+            </svg>
+          </div>
+        </section>
+        <div className="spacer layer1" />
+        <section>
+          <h1>Nice Curves!</h1>
+          <p>
+            A website is like a road. The more curves it has the more
+            interesting it is.
+          </p>
+        </section>
+        <div className="spacer layer2 flip" />
+        <section className="pink">
+          <div className="blob-content">
+            <h1>Nice Curves!</h1>
+            <p>
+              A website is like a road. The more curves it has the more
+              interesting it is.
+            </p>
+          </div>
+        </section>
+        <div className="spacer layer2" />
+      </div>
+    </>
   );
-}
+};
 
 export default App;
